@@ -1,0 +1,159 @@
+body {
+	background-color: #cacaca;
+}
+
+.disabledBut {
+    background-color: darkgrey;
+    color: dimgrey;
+    border: 1px solid dimgrey;
+}
+
+#blocInscript {
+	background-color: #535353;
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	padding-top: 165px;
+	background-image : url("../images/imageInscription.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+    position: relative;
+}
+
+#blocInscript label {
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#pseudo {
+	margin-left: 140px;
+}
+
+#mail{
+	margin-left: 105px;
+}
+
+#pass {
+	margin-left: 102px;
+}
+
+#pass2 {
+	margin-left: 31px;
+}
+
+#naissance {
+	margin-left: 70px;
+}
+
+#blocInscript input {
+	padding: 5px;
+	width: 275px;
+}
+
+.button {
+	width: 215px;
+	margin: auto;
+}
+
+.button button {
+	padding: 10px;
+	width: 100px;
+	margin-top: 10px;
+}
+
+.labelForm {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#retour {
+	margin-right: 11px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.availableBut {
+	background-color: #072566;
+	border: 1px solid #cacaca;
+	color: #cacaca;
+}
+
+.titreBloc {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+}
+
+.helpBox {
+    position: absolute;
+    top: -35px;
+    right: -265px;
+    background-color: #fff;
+    color: red;
+    padding: 10px;    
+}
+
+.helpBoxImg {
+	position: absolute;
+	top:0px;
+	left:-20px;
+}
+
+#wrongMail {
+	display: none;
+	position: relative;
+}
+.crossHelp {
+	position: absolute;
+	top:-22px;
+	right: -10px;
+}
+#correctMail {
+	position :relative;
+	display: none;
+}
+#correctMdp1 {
+	position: relative;
+	display: none;
+}
+.checkHelp {
+	position: absolute;
+	top:-22px;
+	right: -15px;
+}
+#wrongMdp1 {
+	position: relative;
+	display: none;
+}
+#wrongMdp1 .helpBox {
+	right: -381px;
+}
+#wrongMdp2 {
+	position: relative;
+	display: none;
+}
+#correctMdp2 {
+	position: relative;
+	display: none;
+}
+#wrongMdp2 .helpBox {
+	right : -324px;
+}
+#wrongDate {
+    position: relative;
+    display:none;
+}
+#correctDate {
+    position: relative;
+    display:none;
+}
+#wrongDate .helpBox {
+    right: -206px;
+}
+#correctPseudo {
+    position: relative;
+    display:none;
+}

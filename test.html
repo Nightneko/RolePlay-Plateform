@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Inscription</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="blocInscript">
+  	<form action="" method="post">
+  		<div>
+  			<label for="pseudo">Pseudo :</label>
+  			<input type="text" name="pseudo" id="pseudo" />
+  		</div>
+   		<div>
+  			<label for="mail">Adresse mail :</label>
+  			<input type="email" name="mail" id="mail" />
+  		</div>
+  		<div>
+  			<label for="pass">Mot de passe :</label>
+  			<input type="password" name="pass"  id="pass" />
+  		</div>
+  		<div>
+  			<label for="pass2">Retaper le mot de passe :</label>
+  			<input type="password" name="pass2" id="pass2" />
+  		</div>
+  		<div class="button">
+        	<button onclick="history.go(-1)" id="retour">Retour</button> <button type="submit">S'inscrire</button>
+    	</div>
+  	</form>
+  </div>
+  <script>
+	document.getElementById("retour").addEventListener("click", function(event){
+    event.preventDefault()
+});
+  </script>
+</body>
+</html>
