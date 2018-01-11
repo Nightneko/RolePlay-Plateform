@@ -1,18 +1,19 @@
-<head></head>
-<h1 id="heureChange"></h1>
+<head><link rel="stylesheet" type="text/css"  id="changeDesign"></head>
+<body>
+    <div class="fondPlateform">
+        <h1>Je suis un titre</h1>
+    </div>
 <script>
 	var today = new Date();
 	var hour = today.getHours();
-	var lien_css = document.createElement('link');
-	lien_css.rel = "stylesheet";
-	lien_css.type = "text/css";
+	var lien_css = document.getElementById('changeDesign');
 	if(hour >= 18 || hour < 6) {
-		document.getElementById("heureChange").innerHTML = "It's the night "+hour;
-		lien_css.href = "nuit.css";
-	}
+        	var lien_css = document.getElementById('changeDesign');
+            lien_css.href = "css/nuit.css";
+    }
 	else {
 		document.getElementById("heureChange").innerHTML = "It's the day "+hour;
-		lien_css.href = "jour.css";
+            lien_css.href = "css/jour.css";
 	}
-	document.getElementsByTagName("head")[0].appendChild(lien_css);
 </script>
+</body>
