@@ -1,3 +1,7 @@
 body {
-    background-image :url('../images/pattern.png');
+    background-image: url('../images/background.png');
+    background-color: blue;
+}
+.fondPlateform {
+    background-color: red;
 }
