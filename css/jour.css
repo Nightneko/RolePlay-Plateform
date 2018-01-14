@@ -1,7 +1,7 @@
 body {
-    background-image: url('../images/background.png');
-    background-color: blue;
+    background-image: url('../images/backgroundJour.png');
+    background-color: #d2d2d2;
 }
 .fondPlateform {
-    background-color: red;
+    background-color: #fff;
 }
