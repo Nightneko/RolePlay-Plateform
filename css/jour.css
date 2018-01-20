@@ -1,7 +1,10 @@
 body {
-    background-image: url('../images/backgroundJour.png');
-    background-color: #d2d2d2;
+    background-image: url('../images/testBan2.png');
+    background-color: #e6e9eb;
 }
-.fondPlateform {
+.cadreAccCoul {
     background-color: #fff;
+}
+.dateNews {
+	color: #265d7a;
 }

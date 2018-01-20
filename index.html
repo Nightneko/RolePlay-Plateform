@@ -1,18 +1,54 @@
-<head><link rel="stylesheet" type="text/css"  id="changeDesign">
-<link rel="stylesheet" type="text/css" href="css/style.css"></head>
-<body>
-    <div class="fondPlateform">
-        <h1>Je suis un titre</h1>
-    </div>
-<script>
-	var today = new Date();
-	var hour = today.getHours();
-	var lien_css = document.getElementById('changeDesign');
-	if(hour >= 18 || hour < 6) {
-            lien_css.href = "css/nuit.css";
-    }
-	else {
-            lien_css.href = "css/jour.css";
-	}
-</script>
-</body>
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css"  id="changeDesign">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	</head>
+	<body>
+	    <div class="fondPlateform">
+	        <div id="cadreNews" class="cadreAccCoul">
+	        	<div class="titreAccueil">Dernières nouveautés</div>
+	        	<div class="PcontenuAccueil">
+	        		<span class="dateNews">XX/XX/XXXX</span> : Information à savoir, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla <br />
+	        		<span class="dateNews">XX/XX/XXXX</span> : Information à savoir, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla <br />
+	        	</div>
+	        </div>
+	        <div id="cadreStaff" class="cadreAccCoul">
+	        	<div class="titreAccueil">Team Rangers Radis</div>
+	        	<div class="PcontenuAccueil">
+	        		
+	        	</div>
+	        </div>
+	    </div>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script>
+			var today = new Date();
+			var hour = today.getHours();
+			var lien_css = document.getElementById('changeDesign');
+			if(hour >= 18 || hour < 6) {
+		        lien_css.href = "css/nuit.css";
+		        (function($){
+	        		$(window).on("load",function(){
+	            		$(".PcontenuAccueil").mCustomScrollbar({
+	            			theme: "default"
+	            		});
+	        		});
+    			})(jQuery);
+		    }
+			else {
+	            lien_css.href = "css/jour.css";
+	            (function($){
+    				$(window).on("load",function(){
+        				$(".PcontenuAccueil").mCustomScrollbar({
+        					theme: "dark"
+        				});
+    				});
+				})(jQuery);
+			}
+		</script>
+	</body>
+</html>
