@@ -5,6 +5,20 @@ body {
 .cadreAccCoul {
     background-color: #fff;
 }
+.fondPlateform {
+	background-color: blue;
+}
+#cadreNews {
+	background-image: url('../images/triangleNews.png');
+	background-repeat:no-repeat;
+	background-position:bottom left;
+}
 .dateNews {
+	color: #265d7a;
+}
+.boutNav {
+	background-color: #fff;
+}
+a {
 	color: #265d7a;
 }
