@@ -1,24 +1,24 @@
 .disabledBut {
-    background-color: darkgrey;
-    color: dimgrey;
-    border: 1px solid dimgrey;
+	background-color: darkgrey;
+	color           : dimgrey;
+	border          : 1px solid dimgrey;
 }
 
 #blocInscript {
-	background-color: #535353;
-	width: 500px;
-	margin: auto;
-	padding: 20px;
-	padding-top: 165px;
-	background-image : url("../images/imageInscription.png");
-	background-repeat:no-repeat;
+	background-color   : #535353;
+	width              : 500px;
+	margin             : auto;
+	padding            : 20px;
+	padding-top        : 165px;
+	background-image   : url("../images/imageInscription.png");
+	background-repeat  :no-repeat;
 	background-position:center top;
-    position: relative;
+	position           : relative;
 }
 
 #blocInscript label {
-	color: #fff;
-	font-size: 14px;
+	color      : #fff;
+	font-size  : 14px;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -44,169 +44,169 @@
 
 #blocInscript input {
 	padding: 5px;
-	width: 275px;
+	width  : 275px;
 }
 
 .button {
-	width: 215px;
+	width : 215px;
 	margin: auto;
 }
 
 .button button {
-	padding: 10px;
-	width: 100px;
+	padding   : 10px;
+	width     : 100px;
 	margin-top: 10px;
 }
 
 .labelForm {
-	margin-top: 10px;
+	margin-top   : 10px;
 	margin-bottom: 20px;
 }
 
 #retour {
-	margin-right: 11px;
+	margin-right    : 11px;
 	background-color: #fff;
-	border: 1px solid #000;
+	border          : 1px solid #000;
 }
 
 .availableBut {
 	background-color: #072566;
-	border: 1px solid #cacaca;
-	color: #cacaca;
+	border          : 1px solid #cacaca;
+	color           : #cacaca;
 }
 
 .titreBloc {
-	text-align: center;
-	font-size: 40px;
+	text-align   : center;
+	font-size    : 40px;
 	margin-bottom: 20px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #fff;
+	font-family  : 'Open Sans Condensed', sans-serif;
+	color        : #fff;
 }
 
 .helpBox {
-    position: absolute;
-    top: -35px;
-    right: -265px;
-    background-color: #fff;
-    color: red;
-    padding: 10px;    
+	position        : absolute;
+	top             : -35px;
+	right           : -265px;
+	background-color: #fff;
+	color           : red;
+	padding         : 10px;    
 }
 
 .helpBoxImg {
 	position: absolute;
-	top:0px;
-	left:-20px;
+	top     :0px;
+	left    :-20px;
 }
 
 #wrongMail {
-	display: none;
+	display : none;
 	position: relative;
 }
 .crossHelp {
 	position: absolute;
-	top:-22px;
-	right: -10px;
+	top     :-22px;
+	right   : -10px;
 }
 #correctMail {
-	position :relative;
-	display: none;
+	position:relative;
+	display : none;
 }
 #correctMdp1 {
 	position: relative;
-	display: none;
+	display : none;
 }
 .checkHelp {
 	position: absolute;
-	top:-22px;
-	right: -15px;
+	top     :-22px;
+	right   : -15px;
 }
 #wrongMdp1 {
 	position: relative;
-	display: none;
+	display : none;
 }
 #wrongMdp1 .helpBox {
 	right: -381px;
 }
 #wrongMdp2 {
 	position: relative;
-	display: none;
+	display : none;
 }
 #correctMdp2 {
 	position: relative;
-	display: none;
+	display : none;
 }
 #wrongMdp2 .helpBox {
 	right : -324px;
 }
 #wrongDate {
-    position: relative;
-    display:none;
+	position: relative;
+	display :none;
 }
 #correctDate {
-    position: relative;
-    display:none;
+	position: relative;
+	display :none;
 }
 #wrongDate .helpBox {
-    right: -206px;
+	right: -206px;
 }
 #correctPseudo {
-    position: relative;
-    display:none;
+	position: relative;
+	display :none;
 }
 
 /* ========== STYLE BASE ========== */
 .fondPlateform {
-	width: 76%;
-    margin: auto;
-    margin-top: 30%;
-    margin-bottom: 40px;
-    position: relative;
+	width        : 76%;
+	margin       : auto;
+	margin-top   : 30%;
+	margin-bottom: 40px;
+	position     : relative;
 }
 body {
-	background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100%;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
+	background-repeat  : no-repeat;
+	background-position: center top;
+	background-size    : 100%;
+	font-family        : 'Raleway', sans-serif;
+	font-size          : 13px;
 }
 
 #cadreNews {
-	width: 500px;
-	height: 200px;
-	padding: 25px;
-	display: inline-block;
+	width       : 500px;
+	height      : 200px;
+	padding     : 25px;
+	display     : inline-block;
 	margin-right:10px;
 }
 .PcontenuAccueil {
-	overflow: auto;
-	height: 150px;
+	overflow  : auto;
+	height    : 150px;
 	text-align: justify;
 }
 .dateNews {
 	font-weight: bold;
 }
 .titreAccueil {
-	font-size:25px ;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-size    :25px ;
+	font-family  : 'Open Sans Condensed', sans-serif;
 	margin-bottom: 10px;
 }
 #cadreStaff {
-	height: 200px;
+	height : 200px;
 	padding: 10px;
 	display: inline-block;
-	width: 245px;
+	width  : 245px;
 }
 a {
 	text-decoration: none;
 }
 .boutNav {
-	padding: 10px;
-	width: 167px;
-	display: inline-block;
-	text-align: center;
-	font-size: 15px;
+	padding      : 10px;
+	width        : 167px;
+	display      : inline-block;
+	text-align   : center;
+	font-size    : 15px;
 	margin-bottom: 10px;
 	margin-right :5px;
-	margin-left: 5px;
-	font-variant: small-caps;
+	margin-left  : 5px;
+	font-variant : small-caps;
 }

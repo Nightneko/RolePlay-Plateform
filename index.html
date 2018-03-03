@@ -88,7 +88,7 @@
 			var hour = today.getHours();
 			var lien_css = document.getElementById('changeDesign');
 			var lien_js = document.getElementById('jsChange');
-			if(hour >= 18 || hour < 6) {
+			if(hour <= 18 || hour > 6) {
 		        lien_css.href = "css/nuit.css";
 		        lien_js.src = "js/nuit.js";
 		    }
